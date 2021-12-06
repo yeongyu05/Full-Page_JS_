@@ -7,8 +7,6 @@ const scrollTwo = "scrollTwo";
 const scrollThree = "scrollThree";
 const scrollFour = "scrollFour";
 
-sync();
-
 window.addEventListener('wheel', function (e) {
     if(pageBox.classList.contains(scrollZero)) {
         if(e.deltaY > 0) {
