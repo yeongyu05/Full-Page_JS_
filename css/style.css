@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+.container {
+    display: flex;
+}
+.page {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    position: relative;
+}
+.page > h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.checkBox {
+    position: fixed;
+    right: 15px;
+    top: 35vh;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 30px;
+}
+.pageBox {
+    transition: .75s;
+}
+.scrollInit {
+    margin-top: 0;
+}
+.scrollZero {
+    margin-top: 0;
+}
+.scrollOne {
+    margin-top: -100vh;
+}
+.scrollTwo {
+    margin-top: -200vh;
+}
+.scrollThree {
+    margin-top: -300vh;
+}
+.scrollFour {
+    margin-top: -400vh;
+}
